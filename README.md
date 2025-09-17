@@ -52,6 +52,27 @@ nectr/
 
 4. After deployment, copy the contract addresses and update the frontend `.env` file.
 
+### Contract Addresses
+
+Copy these addresses to your frontend `.env` file:
+
+```env
+# Frontend .env
+VITE_NECTR_TOKEN_ADDRESS=0xaA3457AFd6E04FA3B222f722B51be418f737A440
+VITE_NECTR_STAKING_ADDRESS=0xf9Ba698524c89730A4D9041F83fb347603Ff8C28
+```
+
+### Deployed Contracts (Polygon Amoy)
+
+- **NECTR Token (ERC20)**
+
+  - Address: `0xaA3457AFd6E04FA3B222f722B51be418f737A440`
+  - [View on Explorer](https://www.oklink.com/amoy/address/0xaA3457AFd6E04FA3B222f722B51be418f737A440)
+
+- **NECTR Staking**
+  - Address: `0xf9Ba698524c89730A4D9041F83fb347603Ff8C28`
+  - [View on Explorer](https://www.oklink.com/amoy/address/0xf9Ba698524c89730A4D9041F83fb347603Ff8C28)
+
 ### Smart Contract Details
 
 - **NECTR Token (ERC20)**
@@ -76,8 +97,8 @@ nectr/
 - Bun (recommended) or npm
 - A `.env` file in the `frontend` directory with:
   ```env
-  VITE_NECTR_TOKEN_ADDRESS=deployed_token_address
-  VITE_NECTR_STAKING_ADDRESS=deployed_staking_address
+  VITE_NECTR_TOKEN_ADDRESS=0xaA3457AFd6E04FA3B222f722B51be418f737A440
+  VITE_NECTR_STAKING_ADDRESS=0xf9Ba698524c89730A4D9041F83fb347603Ff8C28
   ```
 
 ### Setup & Development
@@ -162,11 +183,3 @@ Frontend:
 cd frontend
 bun test
 ```
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a new Pull Request
